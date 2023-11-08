@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    display: flex;
+    background-image: url(../img/pizza_back\ 1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    padding: 32px 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body::after {
+    position: absolute;
+    content: "";
+    display: block;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(242, 119, 6, 1) 100%);
+    z-index: -1;
+    inset: 0;
+}
+
+header {
+    height: 150px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+    gap: 100px;
+}
+
+.conteudo-container {
+    color: white;
+}
+
+.conteudo-container h1 {
+    width: 230px;
+}
+
+.conteudo-container p {
+    width: 310px;
+}

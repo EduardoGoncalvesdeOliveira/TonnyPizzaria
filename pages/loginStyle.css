@@ -1,0 +1,70 @@
+body {
+    height: 80vh;
+    display: flex;
+    background-image: url(../img/pizza_back\ 1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    padding: 32px 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.login-container {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(242, 119, 6, 1) 100%);    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-top-color: #F7F7F7;
+    border-right-style: none;
+    border-bottom-color: #fff;
+    border-left-color: #F7F7F7;
+    background-color: transparent;
+    color: #fff;
+}
+
+
+body::after {
+    position: absolute;
+    content: "";
+    display: block;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(242, 119, 6, 1) 100%);
+    z-index: -1;
+    inset: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+    gap: 100px;
+}
+
+.conteudo-descricao {
+    color: white;
+}
+
